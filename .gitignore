@@ -1,0 +1,11 @@
+# AWS credentials - never commit these
+*.csv
+.aws/
+*accessKeys*
+*.pem
+*.key
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
