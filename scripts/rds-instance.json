@@ -1,0 +1,17 @@
+{
+  "DBInstanceIdentifier": "capstone7-db",
+  "DBInstanceClass": "db.t3.medium",
+  "Engine": "mysql",
+  "MasterUsername": "admin",
+  "MasterUserPassword": "Barcelon20Str!",
+  "AllocatedStorage": 20,
+  "VpcSecurityGroupIds": ["sg-04130cf932c384568"],
+  "DBSubnetGroupName": "capstone7-db-subnet-group",
+  "BackupRetentionPeriod": 1,
+  "PubliclyAccessible": false,
+  "MonitoringInterval": 60,
+  "MonitoringRoleArn": "arn:aws:iam::264787847442:role/capstone7-rds-monitoring-role",
+  "EnablePerformanceInsights": true,
+  "PerformanceInsightsRetentionPeriod": 7,
+  "EnableCloudwatchLogsExports": ["error", "general", "slowquery"]
+}
