@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "cat > /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json << 'EOF'\n{\n  \"metrics\": {\n    \"metrics_collected\": {\n      \"cpu\": {\"measurement\": [\"cpu_usage_idle\", \"cpu_usage_user\", \"cpu_usage_system\"], \"totalcpu\": true},\n      \"mem\": {\"measurement\": [\"mem_used_percent\"]},\n      \"disk\": {\"measurement\": [\"used_percent\"], \"resources\": [\"/\"]}\n    }\n  },\n  \"logs\": {\n    \"logs_collected\": {\n      \"files\": {\n        \"collect_list\": [\n          {\"file_path\": \"/var/log/httpd/access_log\", \"log_group_name\": \"/capstone7/ec2/httpd/access\", \"log_stream_name\": \"{instance_id}\"},\n          {\"file_path\": \"/var/log/httpd/error_log\", \"log_group_name\": \"/capstone7/ec2/httpd/error\", \"log_stream_name\": \"{instance_id}\"}\n        ]\n      }\n    }\n  }\n}\nEOF\n/opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json"
+  ]
+}

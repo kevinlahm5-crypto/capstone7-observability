@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "cat /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json 2>/dev/null; echo ---; ls -la /var/log/httpd/ 2>/dev/null || echo NO_HTTPD_LOGS"
+  ]
+}

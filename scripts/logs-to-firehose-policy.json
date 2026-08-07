@@ -1,0 +1,10 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "firehose:PutRecord",
+      "Resource": "arn:aws:firehose:us-east-1:264787847442:deliverystream/capstone7-log-stream"
+    }
+  ]
+}
