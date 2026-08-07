@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "mysql -h capstone7-db.ci9qe0s0q6c1.us-east-1.rds.amazonaws.com -u admin -pBarcelon20Str! -e \"SELECT SLEEP(5) AS test_slow_query;\""
+  ]
+}

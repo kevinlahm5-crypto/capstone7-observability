@@ -1,0 +1,5 @@
+{
+  "commands": [
+    "sudo dnf install -y mariadb105 2>&1 || sudo yum install -y mysql 2>&1"
+  ]
+}
