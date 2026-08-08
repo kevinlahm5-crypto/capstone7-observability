@@ -1,0 +1,62 @@
+[
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #1 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #2 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #3 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #4 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #5 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #6 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #7 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #8 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #9 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #10 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #11 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #12 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #13 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #14 for mock test"
+    },
+    {
+        "timestamp":  1786149187074,
+        "message":  "ERROR: simulated failure #15 for mock test"
+    }
+]
